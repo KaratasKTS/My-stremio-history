@@ -1,0 +1,14 @@
+[project]
+name = "stremio-fetch-watched"
+version = "2.0.0"
+description = "Export watched (fully or partially) movies from a Stremio account to Excel/CSV/text"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.28", "openpyxl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

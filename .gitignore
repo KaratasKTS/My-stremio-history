@@ -1,0 +1,29 @@
+# Project-private files (per owner's request)
+CLAUDE.md
+.claude/
+todo/
+
+# Local data: database with account keys, exported reports
+data/
+output/
+*.db
+*.db-wal
+*.db-shm
+*.xlsx
+*.csv
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
